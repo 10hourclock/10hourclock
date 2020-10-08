@@ -19,14 +19,14 @@
 
   .digital {
     display: inline-block;
-    width: 10%;
+    width: 100px;
     text-align: center;
     font-size: 5rem;
     color: white;
   }
 
-  .digital .splitter {
-    width: 5%;
+  .splitter {
+    width: 50px;
   }
   
   .region2 {
@@ -57,14 +57,14 @@
   }
   
   .clock .number1 { --rotation: 36deg; }
-.clock .number2 { --rotation: 72deg; }
-    .clock .number3 { --rotation: 108deg; }
-    .clock .number4 { --rotation: 144deg; }
-    .clock .number5 { --rotation: 180deg; }
-    .clock .number6 { --rotation: 216deg; }
-    .clock .number7 { --rotation: 252deg; }
-    .clock .number8 { --rotation: 288deg; }
-    .clock .number9 { --rotation: 324deg; }
+  .clock .number2 { --rotation: 72deg; }
+  .clock .number3 { --rotation: 108deg; }
+  .clock .number4 { --rotation: 144deg; }
+  .clock .number5 { --rotation: 180deg; }
+  .clock .number6 { --rotation: 216deg; }
+  .clock .number7 { --rotation: 252deg; }
+  .clock .number8 { --rotation: 288deg; }
+  .clock .number9 { --rotation: 324deg; }
   
   .clock .hand {
     --rotation: 0;
