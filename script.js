@@ -7,7 +7,7 @@ const secondHand = document.querySelector('[data-second-hand]')
 function setClock() {
   const currentDate = new Date()
   const totalSeconds = (currentDate.getHours() * 3600) + (currentDate.getMinutes() * 60) + currentDate.getSeconds()
-  const dayPercent = (totalSeconds / 86400) + ( (currentDate.getMilliseconds() % 1000) / 1000)
+  const dayPercent = (totalSeconds / 86400) //+ ( (currentDate.getMilliseconds() % 1000) / 1000)
 
   const secondsRatio = ( (100000 * dayPercent) % 100) / 100
   const minutesRatio = ( (1000 * dayPercent) % 100) / 100
