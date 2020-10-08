@@ -23,5 +23,3 @@ function setRotation(element, rotationRatio) {
 }
 
 setClock()
-
-//Dummy commit
