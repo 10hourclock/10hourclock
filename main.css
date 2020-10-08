@@ -1,28 +1,6 @@
-@font-face {
-    font-family: 'loew-medium';
-    src: url('fonts/loew-medium-webfont.eot');
-    src: url('fonts/loew-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/loew-medium-webfont.woff') format('woff'),
-         url('fonts/loew-medium-webfont.ttf') format('truetype'),
-         url('fonts/loew-medium-webfont.svg#loewmedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'loew-extrabold';
-    src: url('fonts/loew-extrabold-webfont.eot');
-    src: url('fonts/loew-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/loew-extrabold-webfont.woff') format('woff'),
-         url('fonts/loew-extrabold-webfont.ttf') format('truetype'),
-         url('fonts/loew-extrabold-webfont.svg#loewextrabold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 *, *::after, *::before {
     box-sizing: border-box;
-    font-family: 'loew-medium', sans-serif;
+    font-family: sans-serif;
   }
   
   body {
